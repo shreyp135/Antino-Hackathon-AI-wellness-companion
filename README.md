@@ -1,1 +1,1 @@
-# Antino-Hackaathon-AI-wellness-companion
+# Antino-Hackathon-AI-wellness-companion
