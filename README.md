@@ -1,1 +1,1 @@
-# Antino-Hackathon-AI-wellness-companion
+# Antino-Hackathon-AI-wellness-companion - Aluma
