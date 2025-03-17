@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import authRoutes from './routes/auth_routes.js';
+import postRoutes from './routes/post_routes.js';
 
 //env file config
 dotenv.config();
@@ -24,6 +25,7 @@ app.use(express.urlencoded({extended: true}));
 
 //api routes
 app.use("/api/auth", authRoutes);
+app.use("/api/post", postRoutes);
 
 //server start
 app.listen(process.env.PORT, () => {
