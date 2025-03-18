@@ -7,6 +7,10 @@ import React from "react";
 
 function Signup() {
   const Navigate = useNavigate();
+  const token = localStorage.getItem("token");
+  if (token) {
+    Navigate("/");
+  }
   const [loading, setLoading] = useState(false);
   const handleSubmit = async (e) => {
     e.preventDefault();
